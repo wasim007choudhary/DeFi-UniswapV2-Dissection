@@ -2516,6 +2516,9 @@ That is exactly how **Pair and Router contracts work in Uniswap V2**.
 
 >***Secton 5*** In this section we will break the bones of every Contarct, library, math etc of the UniswapV2 combo with same flow and way. Go thorugh the above done part then when you jump to codebase it will a cakewalk !
 
+*Disclaimer: 
+This not the final product of the above section too, will be adding Table content and stuffs but nothing conceptual chnages so feel free to dig in!
+
 Prepare youself first! The moment you finish till above done part, I will drop the whole package!
 
 Insights are welcomed
