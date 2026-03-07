@@ -2512,4 +2512,4 @@ The helper organizes trades.
 That is exactly how **Pair and Router contracts work in Uniswap V2**.
 ---
 
----secton 5 here we will first break down code by code of uniswap v2 Swap flow all of it, evry function every bit everty internal library math etc boii
+---secton 5 here we will first break down code by code of uniswap v2 Swap flow all of it, evry function every bit everty internal library math etc boii. Lets dissec it
