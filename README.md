@@ -506,16 +506,29 @@ Transaction reverts
 
 Answer these before moving forward:
 
-1️⃣ Why does multiplication create slippage?
+##### ***1️⃣ Why does multiplication create slippage?***
+>Because Multiplication creates curve curvature which creates price maupilation and thus price manupilation creates slippage. 
+(***Note*** - What is slippage? => Slippage is the realized difference between expected and executed price)
 
-2️⃣ Why does larger liquidity reduce price impact?
+##### ***2️⃣ Why does larger liquidity reduce price impact?***
+> Because large liquidity creates  more output with same input. Thus larger liquidity means a larger  curve which which enables a Flatter price movement and thus creating a Lower slippage reducing the price impact.
 
-3️⃣ Why can the AMM not maintain a fixed price?
+##### ***3️⃣ Why can the AMM not maintain a fixed price?***
+> Because of its core function is to facilitate trading through a mathematical formula *( x * y = L2 or K)* based on relative supply and demand.
 
-4️⃣ Why does the curve approach zero but never reach it?
+##### ***4️⃣ Why does the curve approach zero but never reach it?***
+> Because can *1/x* can never be zero can it, x will be infinity, as price is derived by *y/x* thus mathematically it can never reach zero. Try it bruh! But the value will become crazy small hence in most they output as zero but is never zero!
 
-5️⃣ What would happen if the invariant was not enforced?
+##### ***5️⃣ What would happen if the invariant was not enforced?***
+> If the invariant 
+*𝑥
+⋅
+𝑦
+=
+𝑘*
+  were not enforced, a trader could input a tiny amount of one token and withdraw a huge amount of the other, because nothing would restrict the exchange ratio.
 
+This would allow attackers or arbitrage bots to drain the liquidity pool instantly, causing liquidity providers to lose their funds and breaking the AMM’s pricing mechanism.
 ---
 
 # 👶 Child Analogy Story
